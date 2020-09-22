@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>动态首页-哔哩哔哩</title>
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body>
+		<div class="containner">
+			<div class="top">
+				<div class="top-container">
+					<div class="top-left">
+						<img src="img/logo.png" id="logo" />
+						<div>
+							<text>主站</text>
+							<img src="img/xia.png" id="xia" />
+						</div>
+						<text>番剧</text>
+						<text>游戏中心</text>
+						<text>直播</text>
+						<text>会员购</text>
+						<text>漫画</text>
+						<text>赛事</text>
+						<div>
+							<img src="img/phone.png" id="phone" />
+							<text>下载APP</text>
+						</div>
+					</div>
+
+					<div class="top-mid">
+						<input placeholder="我抄你,是看的起你" />
+						<div>
+							<img src="img/search.png" />
+						</div>
+					</div>
+
+					<div class="top-right">
+						<div class="login">
+							<img src="img/pic.jpg" id="pic" />
+							<text>登录</text>
+						</div>
+						<text>注册</text>
+						<div class="tougao">
+							<text>投稿</text>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mid">
+				<div class="mid-left">
+					<div class="mid-top">
+						<text>热门动态</text>
+					</div>
+					<div class="content">
+						<div class="content-top">
+							<div class="content-top-left">
+								<img src="img/touxiang.jpg" id="touxiang" />
+								<div class="userInfo">
+									<text id="userName">央视新闻</text>
+									<text id="time">9月8号</text>
+								</div>
+
+							</div>
+							<div class="content-top-right">
+								<button class="guanzhu">+ 关注</button>
+								<img src="img/more.png" />
+
+							</div>
+						</div>
+
+						<div class="ture-content">
+
+							<div class="info">
+								<div class="info-top">
+									<img src="img/userBack.jpg" />
+								</div>
+								<div class="info-bottom">
+									<div class="info-bottom-left">
+										<img src="img/touxiang.jpg" />
+									</div>
+									<div class="info-bottom-right">
+										<text style="font-size: 14px;font-weight: bold;color:rgb(252,113,154) ;">央视新闻</text>
+										<text style="font-size: 12px;">关注: 14 粉丝:435万</text>
+										<text style="font-size: 12px;color: #99A2AA;">央视新闻官方账号</text>
+										<div class="userInfoBtn">
+											<button id="guanzhu">关注</button>
+											<button id="sendMsg">发消息</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<text>
+								【祝贺！钟南山获共和国勋章，张伯礼、张定宇、陈薇获人民英雄称号】国家主席习近平为国家勋章和国家荣誉称号获得者一一颁授勋章奖章，并同他们亲切握手、表示祝贺。向每一位战疫者致敬！
+							</text>
+							<div class="shangpin">
+								<img src="img/example.jpg" />
+							</div>
+						</div>
+						<div class="content-bottom">
+							<div class="content-bottom-left">
+								<img src="img/zhuanfa.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-mid">
+								<img src="img/pinlun.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-right">
+								<img src="img/dianzan.png" />
+								<text>9</text>
+							</div>
+						</div>
+						<div class="none">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="mid-right">
+					<div class="mid-right-1">
+						<div class="mid-right-1-top">
+							<img src="img/mid-top.png" />
+							<text id="huanying">属于你的新世界</text>
+							<text id="login">赶快探索登录吧！</text>
+						</div>
+						<div class="mid-right-1-bottom">
+							<button id="reg">注册</button>
+							<button id="log">登录</button>
+						</div>
+					</div>
+					<div class="mid-right-2">
+						<div class="mid-right-2-bottom">
+							<text>公告栏</text>
+							<img src="img/back.jpg" />
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<div class="more-content">
+				<div class="containner-content">
+					<div class="content">
+						<div class="content-top">
+							<div class="content-top-left">
+								<img src="img/touxiang.jpg" id="touxiang" />
+								<div class="userInfo">
+									<text id="userName">央视新闻</text>
+									<text id="time">9月8号</text>
+								</div>
+
+							</div>
+							<div class="content-top-right">
+								<button class="guanzhu">+ 关注</button>
+								<img src="img/more.png" />
+
+							</div>
+						</div>
+
+						<div class="ture-content">
+
+							<div class="info">
+								<div class="info-top">
+									<img src="img/userBack.jpg" />
+								</div>
+								<div class="info-bottom">
+									<div class="info-bottom-left">
+										<img src="img/touxiang.jpg" />
+									</div>
+									<div class="info-bottom-right">
+										<text style="font-size: 14px;font-weight: bold;color:rgb(252,113,154) ;">央视新闻</text>
+										<text style="font-size: 12px;">关注: 14 粉丝:435万</text>
+										<text style="font-size: 12px;color: #99A2AA;">央视新闻官方账号</text>
+										<div class="userInfoBtn">
+											<button id="guanzhu">+关注</button>
+											<button id="sendMsg">发消息</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<text>
+								【祝贺！钟南山获共和国勋章，张伯礼、张定宇、陈薇获人民英雄称号】国家主席习近平为国家勋章和国家荣誉称号获得者一一颁授勋章奖章，并同他们亲切握手、表示祝贺。向每一位战疫者致敬！
+							</text>
+							<div class="shangpin">
+								<img src="img/example.jpg" />
+							</div>
+						</div>
+						<div class="content-bottom">
+							<div class="content-bottom-left">
+								<img src="img/zhuanfa.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-mid">
+								<img src="img/pinlun.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-right">
+								<img src="img/dianzan.png" />
+								<text>9</text>
+							</div>
+						</div>
+						<div class="none">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="more-content">
+				<div class="containner-content">
+					<div class="content">
+						<div class="content-top">
+							<div class="content-top-left">
+								<img src="img/touxiang.jpg" id="touxiang" />
+								<div class="userInfo">
+									<text id="userName">央视新闻</text>
+									<text id="time">9月8号</text>
+								</div>
+
+							</div>
+							<div class="content-top-right">
+								<button class="guanzhu">+ 关注</button>
+								<img src="img/more.png" />
+							</div>
+						</div>
+
+						<div class="ture-content">
+							<div class="info">
+								<div class="info-top">
+									<img src="img/userBack.jpg" />
+								</div>
+								<div class="info-bottom">
+									<div class="info-bottom-left">
+										<img src="img/touxiang.jpg" />
+									</div>
+									<div class="info-bottom-right">
+										<text style="font-size: 14px;font-weight: bold;color:rgb(252,113,154) ;">央视新闻</text>
+										<text style="font-size: 12px;">关注: 14 粉丝:435万</text>
+										<text style="font-size: 12px;color: #99A2AA;">央视新闻官方账号</text>
+										<div class="userInfoBtn">
+											<button id="guanzhu">+关注</button>
+											<button id="sendMsg">发消息</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<text>
+								【祝贺！钟南山获共和国勋章，张伯礼、张定宇、陈薇获人民英雄称号】国家主席习近平为国家勋章和国家荣誉称号获得者一一颁授勋章奖章，并同他们亲切握手、表示祝贺。向每一位战疫者致敬！
+							</text>
+							<div class="shangpin">
+								<img src="img/example.jpg" />
+							</div>
+						</div>
+						<div class="content-bottom">
+							<div class="content-bottom-left">
+								<img src="img/zhuanfa.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-mid">
+								<img src="img/pinlun.png" />
+								<text>9</text>
+							</div>
+							<div class="content-bottom-right">
+								<img src="img/dianzan.png" />
+								<text>9</text>
+							</div>
+						</div>
+						<div class="none">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="back-top">
+				<img src="img/space-to-top.png" />
+			</div>
+
+			<div class="login-pannel" onclick="hideMask()">
+				
+			</div>
+			<div class="login-containner">
+				<div class="login-containner-all">
+					<div class="login-top">
+						<div class="login-select">
+							<text>登录</text>
+						</div>
+						<div class="login-reg">
+							<text>注册</text>
+						</div>
+					</div>
+					<div class="login-bottom">
+						<div class="login-top2">
+							<text>短信登录></text>
+						</div>
+						<div class="login-input">
+							<input placeholder="请输入手机号/邮箱" />
+						</div>
+						<div class="login-input">
+							<input placeholder="请输入密码" />
+						</div>
+						<div class="login-remember">
+							<div class="remember">
+								<input type="checkbox" />
+								<text>记住我</text>
+							</div>
+							<div class="forget-psw">
+								<text>无法验证?</text>
+								<text>忘记密码?</text>
+							</div>
+						</div>
+						
+						<div class="login-btn">
+							<button id="login-true">登录</button>
+							<button id="login-code">扫二维码登录</button>
+						</div>
+						
+						<div class="infoMsg">
+							<text>登录即代表你同意用户协议和隐私政策</text>
+						</div>
+					</div>
+					
+					
+					<div class="reg">
+						<text>注册</text>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</body>
+
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 600) {
+				$('.back-top').fadeIn();
+			} else {
+				$('.back-top').fadeOut();
+			}
+		});
+
+		$('.back-top').click(function() {
+			$('html ,body').animate({
+				scrollTop: 0
+			}, 300);
+			return false;
+		});
+
+		$("#touxiang").hover(function() {
+			$('.info').fadeIn();
+		}, function() {
+			$('.info').fadeOut();
+		});
+		
+		//显示登录框
+		$(".guanzhu").click(function() {
+			$('.login-pannel').fadeIn();
+			$('.login-containner').fadeIn();
+		});
+
+		//隐藏登录框
+		function hideMask() {
+			$(".login-pannel").hide();
+			$(".login-containner").hide();
+		}
+		
+		//登录与注册的切换
+		$(".login-reg").click(function(){
+			$(".login-select").css("border-bottom","5px solid #eee");
+			$(".login-reg").css("border-bottom","5px solid rgb(0,161,214)");
+			$('.login-bottom').fadeOut();
+			$(".reg").fadeIn();
+		});
+		$(".login-select").click(function(){
+			$(".login-reg").css("border-bottom","5px solid #eee");
+			$(".login-select").css("border-bottom","5px solid rgb(0,161,214)");
+			$('.login-bottom').fadeIn();
+			$(".reg").fadeOut();
+		});
+	</script>
+</html>
